@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(44, 56, 65);
+    /* color: white; */
+    font-family: "Hanken Grotesk", sans-serif;
+
+}
+.session-1 , .session-2{
+    width: 270px;
+    height: 350px;
+}
+.main{
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.session-1 h4{
+    font-weight: bold;
+    color:  #a79ef6;
+}
+.session-1 h3{
+    margin: 18px auto 12px ;
+    font-size: 23px;
+}
+.session-1 p{
+    text-align: justify;
+    text-align: center;
+    font-weight: 300;
+    color:  #a79ef6;
+    font-size: 14px;
+}
+.session-1{
+    background: linear-gradient(rgba(103,67,255,255),rgba(50,45,235,255));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 29px;
+    color: white;
+    border-radius: 15px;
+}
+.round > h2{
+    font-size: 50px; 
+
+}
+.round span{
+    padding: 8px;
+    font-size: 13px;
+    color: #8779ff;
+}
+
+.round{
+    width: 130px;
+    height: 130px; 
+    background: linear-gradient(rgba(75,37,208,255),rgba(71,52,238,255));
+    margin-top: 25px;
+    text-align: center;
+    padding: 25px;
+    border-radius: 50%;
+
+}
+
+.session-2  {
+    padding: 29px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.session-2 h3{
+    margin-top: 5px    ;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.common{
+    padding: 8px;
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.task-1{
+    background-color: #fff6f7;
+    color: #e66a6a;
+}
+.task-2{
+    background-color: #f7fff6;
+    color: #f3d37e;
+}
+.task-3{
+    background-color: #f7f7ff;
+    color: #4fbc9f;
+}
+.task-4{
+    background-color: #feffff;
+    color: #4952c7;
+}   
+
+.lists img{
+    width: 15px;   
+}
+
+.session-2 h2{
+    padding: 13px;; 
+    font-size: 15px; 
+    text-align: center;
+    color: #ffffff;
+    background-color: #303b59;
+    border-radius: 30px;
+    
+}
+.title{
+    margin-left: 10px;
+    font-size: 15px;
+}
+.score {
+    font-size: 15px;
+}
+.continue:hover{
+    background: linear-gradient(rgba(103,67,255,255),rgba(50,45,235,255));
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 543px) {
+    .main{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        background-color: white;
+    }
+    .session-1 , .session-2{
+        width: auto;
+        height: auto;
+    }
+    .session-1{
+        border-radius: 0px 0px 30px 30px;
+    }
+    .session-2{
+        border-radius: 0px;
+    }
+    
+}
+
